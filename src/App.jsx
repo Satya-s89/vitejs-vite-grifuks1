@@ -6,10 +6,10 @@ import './App.css';
 import Productcard from './components/productcard.jsx';
 
 function App() {
-  const cards = Array.from({ length: 10 });
+  const cards = Array.from({ length: 9 });
   const gridStyle = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(4, 1fr)',
+    gridTemplateColumns: 'repeat(3, 1fr)',
     gap: '16px',
     padding: '16px',
   };
